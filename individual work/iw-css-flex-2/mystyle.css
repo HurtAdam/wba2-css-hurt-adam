@@ -1,0 +1,46 @@
+.flex-container-stranka {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-container-lista {
+    width: 100%;
+    background-color: royalblue;
+    height: 10rem;
+}
+.flex-container-estetika {
+    display: flex;   
+    width: 80%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.flex-container-zalozky {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+}
+.flex-item-logo {
+    display:flex;
+    width: 25%;
+    width:220px;
+
+}
+.flex-item-search {
+    display: flex;
+    width: 25%;
+}
+.flex-item-domu {
+    display: flex;
+    font-size: 17.6px;
+}
+.flex-item-o-nas {
+    display: flex;
+    font-size: 17.6px;
+}
+.flex-item-kontakty {
+    display: flex;
+    font-size: 17.6px;
+}

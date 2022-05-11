@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+h3{
+    all: unset;
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1.75rem;
+}
+h5{
+    margin: 0%;
+    all: unset;
+    font-size: 0.875rem;
+}
+.red{
+    background-color: #FF2D00;
+    ;
+}
+.auto{
+    margin: auto;
+}
+.btn{
+    border-radius: 0%;
+    width: 22%;
+    margin: 10px;
+    height: 60px;
+}
+body{
+    background-image: url(brno1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    font-family: 'Rubik', sans-serif;
+}
+main{
+    .brno{
+        height: 109px;
+        width: 200px;
+        background-image: url(brno-logo-ultimate.png);
+        position: absolute;
+        top: 40px;
+        left: 70px;
+    }
+    .odkaz{
+        margin-top: 40px;
+        background-color: white;
+        width: 47%;
+        margin-left: 53%;
+        padding-left: 20px;
+    }
+    .font{
+        font-family: 'Rubik Beastly', cursive;
+    }
+}
+footer{
+    .f1{
+        position: absolute;
+        top: 90%;
+    }
+}
+
+@media screen and (max-width:480px){
+    h3{
+        font-size: 1rem;
+    }
+    h5{
+        display: none;
+    }
+    p{
+        font-size: 0.75rem;
+    }
+    .btn{
+        width: 48%;
+        margin: 10px 0px 5px;
+    }
+    body{
+        background-image: none;
+    }
+    main{
+        .brno{
+            top: 150px;
+            left: 25%;
+        }
+        .odkaz{
+            width: 100%;
+            margin-left: 0%;
+            margin-top: 0px;
+        }
+        .t1{
+            width: 100%;
+            .t2{
+               margin: 210px 0%;
+               width: 100%;
+               .t4{
+                width: 100%;
+                margin: 0%;
+                padding: 0%;
+               }
+            }
+            .t3{
+                width: 100%;
+                padding: 10px;
+                margin: 0%;
+            }
+        }
+    }
+    .w{
+        width: 50%;
+    }
+}

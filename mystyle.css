@@ -1,0 +1,26 @@
+
+
+#first 
+
+h1 {
+
+    color: orange;
+    size: 30px;
+    text-decoration-thickness: bold;
+
+}
+
+.text {
+
+    color:blue;
+    size: 16px;
+    text-decoration-thickness: normal;
+
+}
+
+.podnadpis {
+
+    color: green;
+    size: 25px;
+    text-decoration-thickness: 600;
+}

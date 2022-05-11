@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: seagreen;
+    width: 1200px;
+    height: 100%;
+}
+
+.flex-items {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-color: tan;
+    margin:10px;
+
+
+}
+
+.zarovnani {
+    align-self: center;
+    display: flex;
+    width: 100%;
+
+
+
+}
